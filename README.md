@@ -9,5 +9,10 @@ This project utilizes **YOLOv11** to detect and track players and a ball separat
 - **Visual Enhancements**: Ball tracked with a **green arrow**, ball-holder with a **red arrow**, and team members highlighted with **ellipses**.
 - **Real-Time Performance**: Optimized for smooth tracking and processing.
 
+## Model Training
+- Two separate models are used: one for detecting players and another for detecting the ball.
+- Both models were fine-tuned using **YOLOv11x** on separate datasets sourced from **Roboflow**.
+- The training was conducted on **Google Colab** utilizing its **GPU** for accelerated performance.
+
 ## Example Output
 ![Example Output](output_videos/Example.png)
